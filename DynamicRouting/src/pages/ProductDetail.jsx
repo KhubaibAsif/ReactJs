@@ -51,9 +51,7 @@ function ProductDetail() {
                     Details
                   </a>
                 </div>
-                <p className="leading-relaxed mb-4">
-                 {product.description}
-                </p>
+                <p className="leading-relaxed mb-4">{product.description}</p>
                 <div className="flex border-t border-gray-200 py-2">
                   <span className="text-gray-500">Color</span>
                   <span className="ml-auto text-gray-900">Blue</span>
